@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Roboto Mono
 }
 
 * {
@@ -36,16 +35,49 @@ code {
   align-items: center;
 }
 
-.MuiToolbar-root  {
+.navbar  {
   width:100vw;
-  justify-content: center;
-  background-color: black;
+  padding: 10px;
 }
 
 .MuiButton-label {
-  display: flex;
+  text-transform: lowercase;
   justify-content: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Roboto Mono !important;
+  overflow: hidden; 
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0));
+}
+
+
+.buttons {
+display: flex;
+justify-content: flex-end;
+padding-right: 25px;
+padding-top: 4px;
+overflow: hidden; 
+
+}
+
+.logo {
+display: flex;
+justify-content: flex-start;
+float: left;
+padding-left: 25px;
+overflow: hidden; 
 
 
 
 }
+
+.line {
+  width:100vw; 
+  margin-top: -5px;
+}
+
