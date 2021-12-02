@@ -10,7 +10,6 @@ export default function Navbar() {
 
 
   return (
-
           <div class="navbar">
         <div class= "logo">
         <a href="/">
