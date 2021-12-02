@@ -73,6 +73,7 @@ hr {
 .buttons {
 display: flex;
 justify-content: flex-end;
+color: #9a6ffd;
 padding-right: 25px;
 padding-top: 4px;
 overflow: hidden; 

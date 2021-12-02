@@ -25,9 +25,9 @@ export default function Home() {
         <Navbar/>
         <Line/>
         <main>
-          <Header title="Twitter Analytics for Crypto - Coming Soon!" />
+          <Header title="Twitter Alerts for Crypto - Coming Soon!" />
           <p className="description">
-            Join the <a target="blank" href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft">Alpha Wait List</a> 
+            Join the <a target="blank" href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft">Alpha Wait List</a> &#128293; &#128293; &#128293; 
           </p>
     
         </main>
