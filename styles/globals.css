@@ -25,10 +25,23 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
+a {
+  color: #9a6ffd;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #00ffff;
+}
+
+a:visited {
+  color: #fe14fd;
+}
 
 
 .container {
   height: 100vh;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +76,6 @@ justify-content: flex-end;
 padding-right: 25px;
 padding-top: 4px;
 overflow: hidden; 
-
 }
 
 .logo {
@@ -72,14 +84,15 @@ justify-content: flex-start;
 float: left;
 padding-left: 25px;
 overflow: hidden; 
-
-
-
 }
 
 .line {
   width:100vw;
   max-width: 1290px; 
   margin-top: -5px;
+}
+
+.description {
+  font-size: xx-large;
 }
 
