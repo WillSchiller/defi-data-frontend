@@ -13,12 +13,14 @@ export default function Navbar() {
 
           <div class="navbar">
         <div class= "logo">
+        <a href="/">
         <img
         src="/defi_data_logo.png"
         alt="defi data logo"
         width={100}
         height={56.2}
       />
+      </a>
         </div>
 
 

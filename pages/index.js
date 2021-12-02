@@ -18,7 +18,7 @@ export default function Home() {
     return (
       <div className="container">
         <Head>
-          <title>Next.js Starter!</title>
+          <title>Defi Data - Crypto Alerts from Twitter</title>
           <link rel="icon" href="/favicon.ico" />
           
         </Head>
