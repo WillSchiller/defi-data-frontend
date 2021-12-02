@@ -1,14 +1,14 @@
 /* Import faunaDB sdk */
 const faunadb = require('faunadb')
 const q = faunadb.query
-require('dotenv').config()
 
 
+ 
 exports.handler = (event, context) => {
   console.log('Function `todo-read-all` invoked')
-  /* configure faunaDB Client with our secret */
+
   const client = new faunadb.Client({
-    secret: process.env.FAUNADB_SERVER_SECRET
+    secret: 'fnAED5cwgzACBy8RiqWVgYK2B9tplE07pLQdBkQZ'
   }) 
   return client.query(q.Paginate(q.Match(q.Ref('indexes/tester'))))
     .then((response) => {
@@ -21,9 +21,11 @@ exports.handler = (event, context) => {
       })
       // then query the refs
       return client.query(getAllTodoDataQuery).then((ret) => {
+        console.log(JSON.stringify(ret));
+        console.log(ret[0].data.me.name)
         return {
           statusCode: 200,
-          body: JSON.stringify(ret)
+          body: JSON.stringify(ret[0].data.me.name)
         }
       })
     }).catch((error) => {
