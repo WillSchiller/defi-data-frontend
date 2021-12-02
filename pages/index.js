@@ -25,7 +25,6 @@ export default function Home() {
         <Navbar/>
         <Line/>
         <main>
-        
           <Header title="Twitter Analytics for Crypto - Coming Soon!" />
           <p className="description">
             Join the <a href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft">Alpha Wait List</a> 
