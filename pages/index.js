@@ -21,9 +21,11 @@ export default function Home() {
           <title>Defi Data - Crypto Alerts from Twitter</title>
           <link rel="icon" href="/favicon.ico" />
           
+          
         </Head>
         <Navbar/>
         <Line/>
+        <div className="centerdiv">
         <main>
           <Header title="Twitter Alerts for Crypto - Coming Soon!" />
           <p className="description">
@@ -31,7 +33,7 @@ export default function Home() {
           </p>
     
         </main>
-  
+        </div>
         <Footer />
       </div>
     )

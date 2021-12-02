@@ -41,11 +41,14 @@ a:visited {
 
 .container {
   height: 100vh;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.centerdiv{
+  padding: 1rem;
 }
 
 .navbar  {
