@@ -24,7 +24,7 @@ export default function Home() {
           
         </Head>
         <Navbar/>
-        <Line/>
+        
         <div className="centerdiv">
         <main>
           <Header title="Twitter Alerts for Crypto - Coming Soon!" />
@@ -34,7 +34,7 @@ export default function Home() {
     
         </main>
         </div>
-        <Footer />
+        <Footer/>
       </div>
     )
 

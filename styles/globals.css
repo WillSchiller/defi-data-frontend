@@ -48,13 +48,16 @@ a:visited {
 }
 
 .centerdiv{
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .navbar  {
   width:100vw;
   max-width: 1290px;
   padding: 10px;
+  position: fixed;
+  top: 0;
+
 }
 
 .MuiButton-label {
@@ -69,7 +72,7 @@ a:visited {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.990), rgba(0, 0, 0, 0));
 }
 
 
@@ -100,3 +103,9 @@ overflow: hidden;
   font-size: xx-large;
 }
 
+.Footer_footer__1_BW4 {
+  position: fixed;
+  bottom: 0;
+
+
+}

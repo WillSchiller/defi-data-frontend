@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
+import Line from '@components/line'
 
 
 
@@ -10,6 +11,7 @@ export default function Navbar() {
 
 
   return (
+      
           <div class="navbar">
         <div class= "logo">
         <a href="/">
@@ -29,7 +31,6 @@ export default function Navbar() {
             <Button color="inherit">contact</Button>
             
         </div>
- 
     </div>
 
 
