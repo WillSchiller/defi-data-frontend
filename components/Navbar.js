@@ -31,7 +31,12 @@ export default function Navbar() {
             <Button color="inherit">contact</Button>
             
         </div>
+       
+            <Line/>
+        
+        
     </div>
+
 
 
     

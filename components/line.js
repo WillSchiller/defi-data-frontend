@@ -3,7 +3,7 @@ export default function Line() {
 
     return (
 
-        <div class="line">
+        <div className="line">
 
         <hr></hr>
         </div>
