@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Navbar from '@components/Navbar'
-import Line from '@components/line'
-import Stats from '@components/Stats'
+import { Button } from '@material-ui/core'
+import { Link } from '@material-ui/core'
 
 
 
@@ -11,11 +11,20 @@ import Stats from '@components/Stats'
 
 export default function Home() {
 
+
+  
+
   
   
   
 
     return (
+
+    
+      
+
+
+
       <div className="container">
         <Head>
           <title>Defi Data - Crypto Alerts from Twitter</title>
@@ -29,7 +38,11 @@ export default function Home() {
         <main>
           <Header title="Twitter Alerts for Crypto - Coming Soon!" />
           <p className="description">
-            Join the <a target="blank" href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft">Alpha Wait List</a> &#128293; &#128293; &#128293; 
+          Join the&nbsp;
+          <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passHref>
+          <Button variant="outlined" color="primary">Alpha Wait List</Button>
+          </Link> 
+          &nbsp;&#128293; &#128293; &#128293; 
           </p>
     
         </main>

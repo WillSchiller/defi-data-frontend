@@ -88,6 +88,10 @@ padding-top: 4px;
 overflow: hidden; 
 }
 
+.buttons:hover {
+  color: #00ffff;
+}
+
 .logo {
 display: flex;
 justify-content: flex-start;
