@@ -25,10 +25,11 @@ export default function Navbar() {
         </div>
 
 
-        <div class="buttons">
-            <Button color="inherit">about</Button> 
+        <div class="buttons-box">
+    
+            <Button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"><a href ="/about">about</a></Button>
             <p>|</p>
-            <Button color="inherit">contact</Button>
+            <Button color="inherit"class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"><a href="#">contact</a></Button>
             
         </div>
        

@@ -12,18 +12,10 @@ import { Link } from '@material-ui/core'
 export default function Home() {
 
 
-  
-
-  
-  
-  
 
     return (
 
     
-      
-
-
 
       <div className="container">
         <Head>
@@ -34,7 +26,7 @@ export default function Home() {
         </Head>
         <Navbar/>
         
-        <div className="centerdiv">
+    
         <main>
           <Header title="Twitter Alerts for Crypto - Coming Soon!" />
           <p className="description">
@@ -46,7 +38,7 @@ export default function Home() {
           </p>
     
         </main>
-        </div>
+    
         <Footer/>
       </div>
     )

@@ -2,15 +2,20 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto Mono
+  font-family: Roboto Mono;
+  margin-top: 30px;
+  min-width: 300px; /* 100px x3 = 300 */
+
 }
+
+
 
 * {
   box-sizing: border-box;
 }
 
 main {
-  padding: 5rem 0;
+  padding: 3rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -28,11 +33,9 @@ code {
 a {
   color: #9a6ffd;
   font-weight: bold;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #00ffff;
-}
 
 a:visited {
   color: #fe14fd;
@@ -43,13 +46,12 @@ a:visited {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: auto;
+
+
 }
 
-.centerdiv{
-    padding: 28px;
-}
 
 .navbar  {
   width:100vw;
@@ -57,7 +59,16 @@ a:visited {
   padding: 10px;
   position: fixed;
   top: 0;
+  z-index: 10;
+  background-color: white;
+  
 
+}
+
+.content {
+  text-align: left;
+  max-width: 1290px; 
+  padding: 0 40px 0 40px;
 }
 
 .MuiButton-label {
@@ -79,7 +90,7 @@ hr {
 }
 
 
-.buttons {
+.buttons-box {
 display: flex;
 justify-content: flex-end;
 color: #9a6ffd;
@@ -88,9 +99,14 @@ padding-top: 4px;
 overflow: hidden; 
 }
 
-.buttons:hover {
-  color: #00ffff;
+.buttons {
+  color: #9a6ffd;
+  background-color: white;
+  border: none;
+
+
 }
+
 
 .logo {
 display: flex;
@@ -109,11 +125,12 @@ overflow: hidden;
 
 }
 
-.description {
-  font-size: xx-large;
-}
-
 .Footer_footer__1_BW4 {
   position: fixed;
   bottom: 0;
+}
+
+.description {
+  font-size: normal;
+
 }
