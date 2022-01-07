@@ -41,6 +41,10 @@ a:visited {
   color: #fe14fd;
 }
 
+h2 {
+  font-size: xx-large;
+}
+
 
 .container {
   height: 100vh;
