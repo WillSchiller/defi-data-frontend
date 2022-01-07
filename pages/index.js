@@ -26,7 +26,7 @@ export default function Home() {
         </Head>
         <Navbar/>
         
-    
+        <div className="content">
         <main>
           <Header title="Twitter Alerts for Crypto - Coming Soon!" />
           <p className="description">
@@ -38,7 +38,7 @@ export default function Home() {
           </p>
     
         </main>
-    
+        </div>
         <Footer/>
       </div>
     )
