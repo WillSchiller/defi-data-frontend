@@ -10,7 +10,7 @@ function About() {
         <div className="container">
         <Head>
         <title>Defi Data - About Us</title>
-          <meta name="description" content="Defi Data privacy and data policy.">
+          <meta name="description" content="Defi Data privacy and data policy." />
           <link rel="icon" href="/favicon.ico" />
           
           
