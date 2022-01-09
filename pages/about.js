@@ -9,7 +9,8 @@ function About() {
     return (
         <div className="container">
         <Head>
-          <title>Defi Data - Crypto Alerts from Twitter</title>
+        <title>Defi Data - About Us</title>
+          <meta name="description" content="Defi Data privacy and data policy.">
           <link rel="icon" href="/favicon.ico" />
           
           
