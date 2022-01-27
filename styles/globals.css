@@ -148,6 +148,7 @@ overflow: hidden;
 }
 
 
+
  table {
   border-top:1px solid #eff2f5;
   width: 100%;
@@ -156,6 +157,7 @@ overflow: hidden;
   border-collapse: collapse;
   font-size: 1vw;
 
+  
 
 }
 
@@ -183,3 +185,4 @@ td {
  th.number, td.number {
    width: 10%;
  }
+

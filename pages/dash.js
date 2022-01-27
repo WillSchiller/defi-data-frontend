@@ -45,12 +45,15 @@ class Dash extends Component {
             <div className='content'>
             <h1>Trending Tokens by Tweet Frequency</h1>
             <p>Top 10 token based on current tweet frequency Vs 24hr slow moving average (SMA)</p>
+            
 
+
+            
             <Table responsive>
            
                 <th class="number">#</th>
                 <th>Symbol</th>
-                <th>Tweets/hour</th>
+                <th>Tweets</th>
                 <th>24%</th>
                 <th>7d%</th>
                 <th>RSD 24</th>
@@ -60,8 +63,9 @@ class Dash extends Component {
             </Table>
 
             {this.state.apiResponse.map((row) => (
+                <div className='place-holder'>
                 <Table responsive>
-            
+             
         
                     <tr>
                         <td class="number"><b>{rowcounter++}</b></td>
@@ -77,11 +81,11 @@ class Dash extends Component {
                         
                     </tr>
 
-             
                 </Table>
-    
+    </div>
     ))}
 
+<p>hello</p>
 
 <LineChart width={10} height={300} data={this.state.apiResponse}>
     <XAxis dataKey="date"/>
