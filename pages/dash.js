@@ -85,9 +85,8 @@ class Dash extends Component {
     </div>
     ))}
 
-<p>hello</p>
 
-<LineChart width={10} height={300} data={this.state.apiResponse}>
+<LineChart width={1000} height={300} data={this.state.apiResponse}>
     <XAxis dataKey="date"/>
     <YAxis/>
     <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
