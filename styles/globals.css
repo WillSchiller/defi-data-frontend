@@ -41,6 +41,11 @@ a:visited {
   color: #fe14fd;
 }
 
+.h1-left {
+  float: left;
+
+}
+
 h2 {
   font-size: xx-large;
 }
@@ -73,6 +78,9 @@ h2 {
   text-align: left;
   max-width: 1290px; 
   padding: 0 40px 0 40px;
+  
+  
+  
 }
 
 .MuiButton-label {
@@ -138,3 +146,40 @@ overflow: hidden;
   font-size: normal;
 
 }
+
+
+ table {
+  border-top:1px solid #eff2f5;
+  width: 100%;
+  table-layout: fixed;
+  max-width: 1220px; 
+  border-collapse: collapse;
+  font-size: 1vw;
+
+
+}
+
+td {
+
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+ }
+
+ tr:hover{
+  background-color: #f6f6f6;
+ }
+
+ th {
+   background-color: black;
+   color: white;
+  padding: 12.5px;
+  padding-left: 10px;
+  
+ }
+
+ th.number, td.number {
+   width: 10%;
+ }
