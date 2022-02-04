@@ -1,9 +1,7 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
 import Line from '@components/line'
+import { Link } from '@material-ui/core';
+import Image from 'next/image';
 
 
 
@@ -11,35 +9,47 @@ export default function Navbar() {
 
 
   return (
-      
-          <div class="navbar">
-        <div class= "logo">
-        <a href="/">
-        <img
-        src="/defi_data_logo.png"
-        alt="defi data logo"
-        width={100}
-        height={56.2}
-      />
-      </a>
-        </div>
 
+      <div className="container">
+        <div className='filler'></div>
+        
 
-        <div class="buttons-box">
-    
-            <Button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"><a href ="/about">about</a></Button>
-            <p>|</p>
-            <Button color="inherit"class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"><a href="#">contact</a></Button>
+        
+
+          <div className="navbar">
             
-        </div>
-       
-            <Line/>
-        
-        
-    </div>
 
-
-
+            <div className= "logo">
+              <Link href="/">
+                <Image src="/defi_data_logo.png" alt="defi data logo" width={100} height={56.2} />
+              </Link>
+            </div>
+            <div className="buttons-box">
+              <div>
+                <Link href="/machine-learning" style={{ textDecoration: 'none' }}>
+                    <a>ML</a>
+                </Link>
+              </div>
+              <div>
+                <Link href="/api-data" style={{ textDecoration: 'none' }}>
+                  <a>API</a>
+                </Link>
+              </div>
+              <div>
+                <Link href="/about" style={{ textDecoration: 'none' }}>
+                  <a>About</a>
+                </Link>     
+              </div>
+           </div>
     
+           </div> 
+           
+          <Line/>
+
+      </div>
+      
+
   );
+
+
 }
