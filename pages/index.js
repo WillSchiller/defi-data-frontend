@@ -34,7 +34,7 @@ export default function Home() {
                 <div className='info-box purple-border'>
                     <p><b>API</b></p>
                     <p>Rest API for Developers and automated trading - Coming Soon!</p>
-                    <p><Link href="http://localhost:3004/api-data"><a className='button purple'>API</a></Link></p>
+                    <p><Link href="/api-data"><a className='button purple'>API</a></Link></p>
                 </div>
                 <div className='info-box pink-border'>
                     <p><b>Machine Learning</b></p>
