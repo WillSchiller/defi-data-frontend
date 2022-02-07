@@ -47,12 +47,13 @@ const Symbol = ({ token }) => {
   
 
         <main>
-            <div className="container"> 
-                <div className='content'>
-                    <div className='dark-header'>
+        <div className='dark-header'>
                         <h1 className='hero'>{(router.asPath).substr((router.asPath).lastIndexOf('/') + 1).toUpperCase()}</h1>
                         <p>Token Stats & History</p>
                     </div>
+            <div className="container"> 
+                <div className='content'>
+                    
                     <DynamicTable />
                     <DynamicChart />
                     
