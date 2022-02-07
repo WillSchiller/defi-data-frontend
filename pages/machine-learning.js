@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '@components/Navbar'
 import Link from 'next/link'
 import { CenterFocusStrong } from '@material-ui/icons'
