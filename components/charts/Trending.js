@@ -31,7 +31,7 @@ class Trending extends Component {
             <div className="box">
 
                 <div className="titlebox">
-                    <h2>  <div className='icon'>&#128293;</div> Trending</h2>
+                    <h3>  <div className='icon'>&#128293;</div> Trending</h3>
                     <p className='title'>Biggest increase over 24hr.</p>
                 </div>
 

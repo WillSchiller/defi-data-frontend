@@ -32,7 +32,7 @@ class Decreasing extends Component {
             <div className="box">
 
                 <div className="titlebox">
-                    <h2><div className="icon">&#128123;</div> Decreasing</h2>
+                    <h3><div className="icon">&#128123;</div> Decreasing</h3>
                     <p className="title">Biggest decrease over 24hr.</p>
                 </div>
 

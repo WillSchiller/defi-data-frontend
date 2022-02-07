@@ -25,7 +25,7 @@ const DynamicChart = props => {
             
             <div className='graph-box'>
                 <div className="titlebox">
-                    <h2><div className='icon'>&#9194;</div> History</h2>
+                    <h3><div className='icon'>&#9194;</div> History</h3>
                     <p className="title">Total mentions across all tracked tokens.</p>
                 </div>
                     <ResponsiveContainer width="98%" height={300}>

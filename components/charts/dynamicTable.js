@@ -26,7 +26,7 @@ const DynamicTable = props => {
             <div className="graph-box">
 
             <div className="titlebox">
-                <h2>  <div className='icon'>&#128064;</div> Latest Token Stats</h2>
+                <h3>  <div className='icon'>&#128064;</div> Latest Token Stats</h3>
                
             </div>
 

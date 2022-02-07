@@ -37,7 +37,7 @@ export default function Home() {
                     <p><Link href="http://localhost:3004/api-data"><a className='button purple'>API</a></Link></p>
                 </div>
                 <div className='info-box pink-border'>
-                    <p>Machine Learning</p>
+                    <p><b>Machine Learning</b></p>
                     <p>ML insights and subscribable alerts strait to your inbox.</p>
                     <p><Link href="/machine-learning">
                     <a className='button pink'>ML</a></Link></p>
@@ -47,7 +47,7 @@ export default function Home() {
               
             <div className="container"> 
                   <div className='content'>
-                      <div className='graph-box'><h1 id="dashboard">Crypto Twitter Stats</h1></div>
+                      <div className='graph-box'><h2 id="dashboard">Crypto Twitter Stats</h2></div>
                       
                       <History />
                       <Trending />
