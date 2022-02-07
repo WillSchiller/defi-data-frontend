@@ -1,6 +1,6 @@
 import React from 'react';
 import Line from '@components/line'
-import { Link } from '@material-ui/core';
+import Link from 'next/link'
 import Image from 'next/image';
 
 

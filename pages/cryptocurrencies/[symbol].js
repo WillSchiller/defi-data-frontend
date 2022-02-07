@@ -2,6 +2,10 @@
 import Trending from '@components/charts/Trending';
 import Head from 'next/head'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, ComposedChart, Area, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import {useRouter} from 'next/router';
+import Test from '@components/charts/dynamicChart';
+import DynamicChart from '@components/charts/dynamicChart';
+import DynamicTable from '@components/charts/dynamicTable';
 
 
 
@@ -9,7 +13,6 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, ComposedChart, Area, Tool
 export const getStaticPaths = async () => {
     const res = await fetch('https://fathomless-fjord-82402.herokuapp.com/tokens');
     const data = await res.json();
-    //const data = [{symbol: 'btc'}]
     const paths = data.map(token => {
         return {
             params: {symbol: token.symbol.toString().toLowerCase()}
@@ -25,15 +28,13 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const symbol = context.params.symbol.toLowerCase();
-    
-    const res = fetch('https://fathomless-fjord-82402.herokuapp.com/history/'+symbol)
-    const data = await (await res).json();
     return {
-        props: {token : data}
+        props: {token : symbol}
     }
 }
 
 const Symbol = ({ token }) => {
+    const router = useRouter()
     return (
         <div className="container">
 
@@ -48,31 +49,16 @@ const Symbol = ({ token }) => {
         <main>
             <div className="container"> 
                 <div className='content'>
-                    <div className='graph-box'><h1>{token[0].symbol}</h1></div>
-
-        
-                    <div className='graph-box'>
-
-                    <div className="titlebox">
-                <h2><div className='icon'>&#9194;</div> {token[0].symbol} Token History</h2>
-                <p className="title"> Tweets over time.</p>
-            </div>
-
-
-                    <ResponsiveContainer width="98%" height={300}>
-                <ComposedChart  data={token}>
-                <XAxis dataKey="date"/>
-                <YAxis/>
-                <XAxis dataKey="date" />
-                <Area strokeWidth={3}  type="monotone" dataKey="count" fill="#A98DE8" stroke="#9A6DF8"  activeDot={{ fill: "#fe14fd", stroke: '#fe14fd', strokeWidth: 2, r: 7 }} />
-                <Tooltip />
-<Legend />
-            </ComposedChart>
-        </ResponsiveContainer>
-
-
+                    <div className='dark-header'>
+                        <h1 className='hero'>{(router.asPath).substr((router.asPath).lastIndexOf('/') + 1).toUpperCase()}</h1>
+                        <p>Token Stats & History</p>
                     </div>
-                    <Trending />
+                    <DynamicTable />
+                    <DynamicChart />
+                    
+        
+                  
+                 
                    
 
                        

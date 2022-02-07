@@ -1,20 +1,18 @@
 import Head from 'next/head'
-import Navbar from '@components/Navbar'
 import Trending from '@components/charts/Trending'
 import Volatile from '@components/charts/Volatile'
 import Decreasing from '@components/charts/Decreasing'
 import History from '@components/charts/History'
 import React, { Component } from "react"
-
+import Link from 'next/link'
 
 
 
 
 export default function Home() {
 
-
     return (
-      <div className="container">
+      <div className='container'>
 
           <Head>
               <title>Defi Data - Crypto Twitter Data API</title>
@@ -22,12 +20,34 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
           </Head>
 
-    
-  
           <main>
-              <div className="container"> 
+
+          <div className='dark-header'>
+            <h1 className='hero'>DEFI ANALYTICS</h1>
+                
+                <div className='row content'>
+                    <div className='info-box aqua-border'>
+                        <p><b>ANALYTICS</b></p>
+                        <p>Free Crypto Twitter dashboards updated hourly.</p>
+                        <p><Link href="#dashboard"><a className='button aqua'>DASHBAORD</a></Link></p>
+                    </div>
+                <div className='info-box purple-border'>
+                    <p><b>API</b></p>
+                    <p>Rest API for Developers and automated trading - Coming Soon!</p>
+                    <p><Link href="http://localhost:3004/api-data"><a className='button purple'>API</a></Link></p>
+                </div>
+                <div className='info-box pink-border'>
+                    <p>Machine Learning</p>
+                    <p>ML insights and subscribable alerts strait to your inbox.</p>
+                    <p><Link href="/machine-learning">
+                    <a className='button pink'>ML</a></Link></p>
+                </div>
+                </div>
+            </div>
+              
+            <div className="container"> 
                   <div className='content'>
-                      <div className='graph-box'><h1>Crypto Twitter Stats</h1></div>
+                      <div className='graph-box'><h1 id="dashboard">Crypto Twitter Stats</h1></div>
                       
                       <History />
                       <Trending />
