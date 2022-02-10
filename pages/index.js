@@ -37,7 +37,7 @@ export default function Home() {
                     <p><Link href="/api-data"><a className='button purple'>API</a></Link></p>
                 </div>
                 <div className='info-box pink-border'>
-                    <p><b>Machine Learning</b></p>
+                    <p><b>MACHINE LEARNING</b></p>
                     <p>ML insights and subscribable alerts strait to your inbox.</p>
                     <p><Link href="/machine-learning">
                     <a className='button pink'>ML</a></Link></p>

@@ -33,7 +33,7 @@ class Volatile extends Component {
 
                 <div className="titlebox">
                     <h3><div className='icon'>&#9889;</div>Most Volatile</h3>
-                    <div className='title'><p className='title'>Highest 7 day Relitive Standard Deviation.</p></div>
+                    <div className='title'><p className='title'>Highest 7 day Relative Standard Deviation.</p></div>
                 </div>
 
                 <Table responsive>

@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-  font-size: calc(1.8vw * 60%);
+  font-size: calc(1.4vw + 60%);
   font-weight: 400;
   padding-left: 25px;
   padding-right: 25px;
@@ -88,7 +88,7 @@ h3, h4 {
   max-width: 1450px;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: calc(1.8vw + 65%);
+  font-size: calc(1vw + 60%);
   margin-bottom: 0;
   margin-top: 10px;
   font-weight: 500;
@@ -283,7 +283,7 @@ td {
     float: left;
     padding-right: 2vh;
     height: 100%;
-    font-size: 50px;
+    font-size: calc(1vw + 60%);
  }
 
  .title {
