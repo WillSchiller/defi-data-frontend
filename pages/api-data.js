@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Navbar from '@components/Navbar'
+import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@material-ui/core'
-import { Link } from '@material-ui/core'
 
 
 function Apidata() {
@@ -20,7 +20,7 @@ function Apidata() {
           <div className='graph-box'>
             <div className="container joke"> 
               <h1>Fantastic data like this from a genuine API</h1>
-                <img src="/funny_man.png" alt="Funny retro computer advert" width={375} height={409}/>
+                <Image src="/funny_man.png" alt="Funny retro computer advert" width={375} height={409}/>
                 <h2>Features such as <i>GET REQUEST</i> & <i>JSON</i> </h2>
                 <h2>Full Service Coming Soon! *</h2>
                   <h3>Buy now or regret later</h3>

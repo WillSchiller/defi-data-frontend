@@ -1,6 +1,7 @@
 import React from 'react';
 import Line from '@components/line'
 import Link from 'next/link'
+import Image from 'next/image';
 
 
 
@@ -20,8 +21,8 @@ export default function Navbar() {
             
 
             <div className= "logo">
-              <Link href="/">
-                <img src="/defi_data_logo.png" alt="defi data logo" width={100} height={56.2} />
+              <Link href="/" passhref>
+                <Image src="/defi_data_logo.png" alt="defi data logo" width={100} height={56.2} />
               </Link>
             </div>
             <div className="buttons-box">
