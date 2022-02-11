@@ -32,15 +32,15 @@ export default function Home() {
                         <p><Link href="#dashboard"><a className='button aqua'>DASHBAORD</a></Link></p>
                     </div>
                 <div className='info-box purple-border'>
-                    <p><b>API</b></p>
+                    <p><b>DATA</b></p>
                     <p>Rest API for Developers and automated trading - Coming Soon!</p>
                     <p><Link href="/api-data"><a className='button purple'>API</a></Link></p>
                 </div>
                 <div className='info-box pink-border'>
-                    <p><b>MACHINE LEARNING</b></p>
+                    <p><b>AI</b></p>
                     <p>ML insights and subscribable alerts strait to your inbox.</p>
                     <p><Link href="/machine-learning">
-                    <a className='button pink'>ML</a></Link></p>
+                    <a className='button pink'>Machine Learning</a></Link></p>
                 </div>
                 </div>
             </div>
