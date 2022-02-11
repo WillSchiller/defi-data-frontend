@@ -57,8 +57,6 @@ a {
 
 
 a:hover {
-  filter: brightness(200%);
-  
   text-decoration: none;
 }
 
@@ -103,7 +101,9 @@ p {
 
 p.title {
   padding-left: 0.11vw;
+  font-size: calc(1vw + 40%);
 }
+
 
 
 
@@ -283,7 +283,7 @@ td {
     float: left;
     padding-right: 2vh;
     height: 100%;
-    font-size: calc(1vw + 60%);
+    font-size: calc((1vw + 140%));
  }
 
  .title {
@@ -318,6 +318,7 @@ td {
  }
 
  .info-box {
+  color: #172026;
   width: 30%;
   height: auto;
   min-width: 300px;
@@ -331,52 +332,46 @@ td {
  
  }
 
- .row:hover{
-   color: white !important;
- }
+
 
  .aqua-border {
   border-color: #46ebff;
+  background-color: #46ebff;
  }
  .pink-border {
   border-color:#fe14fd ;
+  background-color:#fe14fd ;
 }
 .purple-border {
   border-color:#9A6DF8;
+  background-color:#9A6DF8 ;
 }
 
 a.aqua {
-  border-color: #46ebff !important;
-  color: white;
-
-  
+  border-color: white !important;
+  color:#172026;
+}
+a.purple {
+  border-color:white !important;
+  color: black;
+}
+a.pink {
+  border-color:white !important;
+  color: black;
 }
 a.aqua:hover {
-  border-color: #46ebff;
-  background-color: #46ebff;
+  border-color: #C7F9FF !important;
+  background-color: #C7F9FF;
 
- 
 }
-
-a.pink {
-  border-color: #fe14fd !important;
-  color: white;
-}
-
 a.pink:hover {
- background-color: #fe14fd !important;
- color: white;
+border-color: #FFD1FF!important;
+background-color: #FFD1FF !important
 
 }
-
-a.purple {
-  border-color: #9a6ffd !important;
-  color: white;
-}
-
 a.purple:hover {
-background-color: #9A6DF8;
-color: #9A6DF8;
+background-color: #E4D8FD;
+border-color: #E4D8FD !important;
 
 }
 
@@ -400,6 +395,7 @@ a.button{
   text-shadow: 0 0 2em black(255,255,255,1);
   color:black;
   border-color:#FFFFFF;
+
   }
   @media all and (max-width:30em){
   a.button{
