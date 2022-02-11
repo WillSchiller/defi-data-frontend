@@ -42,7 +42,7 @@ class History extends Component {
                 <XAxis dataKey="date"/>
                 <YAxis/>
                 <XAxis dataKey="date" />
-                <Area strokeWidth={3} type="monotone" dataKey="tweets" fill="#A98DE8" stroke="#9A6DF8"  activeDot={{ fill: "#fe14fd", stroke: '#fe14fd', strokeWidth: 2, r: 7 }} />
+                <Area strokeWidth={3} type="monotone" dataKey="tweets" fill="#8A2BE2" stroke="#8A2BE2"  activeDot={{ fill: "#FF1493", stroke: '#fe14fd', strokeWidth: 2, r: 5 }} />
                 <Tooltip />
 <Legend />
             </ComposedChart>

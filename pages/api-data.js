@@ -24,7 +24,7 @@ function Apidata() {
                 <h2>Features such as <i>GET REQUEST</i> & <i>JSON</i> </h2>
                 <h2>Full Service Coming Soon! *</h2>
                   <h3>Buy now or regret later</h3>
-                    <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passhref>
+                    <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passHref>
                       <Button variant="outlined" color="primary">Alpha Wait List</Button>
                     </Link> 
                     &nbsp;&#128293; &#128293; &#128293; 

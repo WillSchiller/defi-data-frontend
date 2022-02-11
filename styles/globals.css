@@ -50,7 +50,7 @@ main {
 
 a {
   
-  color: #9A6DF8;
+  color: #8A2BE2;
   text-decoration: none;
 
 }
@@ -58,11 +58,10 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #fe14fd;
 }
 
-a:visited {
-  color: #9A6DF8;
-}
+
 
 h1 {
   font-size: calc(1.8vw * 60%);
@@ -365,8 +364,8 @@ a.aqua:hover {
 
 }
 a.pink:hover {
-border-color: #FFD1FF!important;
-background-color: #FFD1FF !important
+border-color: #FFBDE0!important;
+background-color: #FFBDE0 !important
 
 }
 a.purple:hover {

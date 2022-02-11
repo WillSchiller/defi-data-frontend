@@ -21,23 +21,23 @@ export default function Navbar() {
             
 
             <div className= "logo">
-              <Link href="/" passhref>
+              <Link href="/" passHref>
                 <Image src="/defi_data_logo.png" alt="defi data logo" width={100} height={56.2} />
               </Link>
             </div>
             <div className="buttons-box">
               <div>
-                <Link href="/machine-learning" style={{ textDecoration: 'none' }}>
+                <Link href="/machine-learning" style={{ textDecoration: 'none' }} passHref>
                     <a>ML</a>
                 </Link>
               </div>
               <div>
-                <Link href="/api-data" style={{ textDecoration: 'none' }}>
+                <Link href="/api-data" style={{ textDecoration: 'none' }} passHref>
                   <a>API</a>
                 </Link>
               </div>
               <div>
-                <Link href="/about" style={{ textDecoration: 'none' }}>
+                <Link href="/about" style={{ textDecoration: 'none' }} passHref>
                   <a>About</a>
                 </Link>     
               </div>
