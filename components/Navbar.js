@@ -22,7 +22,7 @@ export default function Navbar() {
 
             <div className= "logo">
               <Link href="/" passHref>
-                <Image src="/defi_data_logo.png" alt="defi data logo" width={100} height={56.2} />
+                <a><Image src="/defi_data_logo.png" alt="defi data logo" width={100} height={56.2} /></a>
               </Link>
             </div>
             <div className="buttons-box">

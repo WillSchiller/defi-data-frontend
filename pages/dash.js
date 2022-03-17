@@ -39,7 +39,7 @@ class Dash extends Component {
             <div className="container">
 
                 <Head>
-                    <title>Defi Data - Crypto Twitter Data API</title>
+                    <title>Defi Data - Crypto Twitter Data & API</title>
                     <meta name="description" content="Crypto Twitter data and analysis API and platform. Get insights for the top 400 cryptocurrency tokens including sentiment & frequency metrics." /> 
                     <link rel="icon" href="/favicon.ico" />
                 </Head>

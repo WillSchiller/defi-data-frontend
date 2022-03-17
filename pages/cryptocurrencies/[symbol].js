@@ -39,8 +39,8 @@ const Symbol = ({ token }) => {
         <div className="container">
 
         <Head>
-            <title>Defi Data - Crypto Twitter Data API</title>
-            <meta name="description" content="Crypto Twitter data and analysis API and platform. Get insights for the top 400 cryptocurrency tokens including sentiment & frequency metrics." /> 
+            <title>Defi Data - Latest {(router.asPath).substr((router.asPath).lastIndexOf('/') + 1).toUpperCase()} Stats</title>
+            <meta name="description" content={"Currenting trending stats for " +(router.asPath).substr((router.asPath).lastIndexOf('/') + 1).toUpperCase() + " token. Data updated hourly."} /> 
             <link rel="icon" href="/favicon.ico" />
         </Head>
 

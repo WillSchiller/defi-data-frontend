@@ -9,8 +9,8 @@ function Apidata() {
         <div className="container">
 
           <Head>
-            <title>Defi Data - About Us</title>
-            <meta name="description" content="Defi Data privacy and data policy." />
+            <title>Defi Data - API for Crypto Twitter Data & Trends</title>
+            <meta name="description" content="Crypto data for automated trading, market making, MEV & arbitrage." />
             <link rel="icon" href="/favicon.ico" />
           </Head>
 

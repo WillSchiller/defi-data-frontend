@@ -9,8 +9,8 @@ function Machinelearning() {
     return (
         <div className="container">
           <Head>
-            <title>Defi Data - About Us</title>
-            <meta name="description" content="Defi Data privacy and data policy." />
+            <title>Defi Data - Machine Learning</title>
+            <meta name="description" content="Machine learning project that uses Twitter data to predict price movements." />
             <link rel="icon" href="/favicon.ico" />
           </Head>
 

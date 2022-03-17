@@ -19,7 +19,7 @@ class Contracts extends Component {
 
                 <Head>
                     <title>Defi Data - Smart Contract Stats</title>
-                    <meta name="description" content="Crypto Twitter data and analysis API and platform. Get insights for the top 400 cryptocurrency tokens including sentiment & frequency metrics." /> 
+                    <meta name="description" content="Realtime dashboard showing top performing new smart contracts. Use it to find the lastest NTF, token sales and projects." /> 
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
