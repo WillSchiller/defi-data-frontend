@@ -217,7 +217,7 @@ td {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 12.5px;
-
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   
@@ -230,7 +230,7 @@ td {
  th {
   padding: 12.5px;
   overflow: hidden;
-  white-space: nowrap;
+
   text-overflow: ellipsis;
  
   
@@ -253,6 +253,7 @@ td {
   padding: 0 0 0 0.9vw;
   
  }
+
 
 
  .graph-box{

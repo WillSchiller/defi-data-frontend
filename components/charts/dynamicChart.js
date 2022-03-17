@@ -29,13 +29,13 @@ const DynamicChart = props => {
                     <p className="title">Total&nbsp;<b>${token.toLocaleLowerCase()}</b>&nbsp;mentions.</p>
                 </div>
                     <ResponsiveContainer width="98%" height={300}>
-                        <ComposedChart  data={data}>
-                            <XAxis dataKey="date"/>
+                        <ComposedChart connectNulls data={data}>
+                
                             <YAxis/>
                             <XAxis dataKey="date" />
                             <Area strokeWidth={3} type="monotone" dataKey="count" fill="#8A2BE2" stroke="#8A2BE2"  activeDot={{ fill: "#FF1493", stroke: '#fe14fd', strokeWidth: 2, r: 5 }} />
                             <Tooltip />
-                            <Legend />
+       
                         </ComposedChart>
                     </ResponsiveContainer>
             </div>

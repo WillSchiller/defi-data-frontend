@@ -26,6 +26,11 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="buttons-box">
+            <div>
+                <Link href="/contracts" style={{ textDecoration: 'none' }} passHref>
+                    <a>0x</a>
+                </Link>
+              </div>
               <div>
                 <Link href="/machine-learning" style={{ textDecoration: 'none' }} passHref>
                     <a>ML</a>
@@ -38,7 +43,7 @@ export default function Navbar() {
               </div>
               <div>
                 <Link href="/about" style={{ textDecoration: 'none' }} passHref>
-                  <a>About</a>
+                  <a>info</a>
                 </Link>     
               </div>
            </div>
