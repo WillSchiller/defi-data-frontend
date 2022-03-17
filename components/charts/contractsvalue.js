@@ -33,7 +33,7 @@ class Contractsvalue extends Component {
 
                 <div className="titlebox">
                     <h3><div className="icon">&#128176;</div> New contracts by Eth received</h3>
-                    <p className="title">Contracts deployed over last 7 days that generated the most eth from input Tx's</p>
+                    <p className="title">Contracts deployed over last 7 days that generated the most eth from input Tx&#39;s</p>
                 </div>
 
                 <Table responsive>
