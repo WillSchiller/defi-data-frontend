@@ -28,7 +28,7 @@ function Machinelearning() {
          
             <div className='content'>
             
-              <h1>Machine Learning Models</h1>
+              <h2>Machine Learning Models</h2>
                 <p>Defi Data has collected +50 million of rows of twitter frequency and sentiment data across the top 400 tokens. This equates to about 9 full months of data at minute resolution. 
                   This dataset will be used to run ML experiments and build models to correlate price with twitter volume and sentiment metrics. 
                   </p>

@@ -3,4 +3,11 @@
   export = ".next"
 
 [[plugins]]
-package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"
+
+
+[[redirects]]
+  from = "/cryptocurrencies/[symbol]"
+  to = "/"
+  status = 301
+  force = false
