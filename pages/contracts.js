@@ -3,6 +3,7 @@ import Navbar from '@components/Navbar'
 import Contracttx from '@components/charts/contractstx'
 import Contractsvalue from '@components/charts/contractsvalue'
 import React, { Component } from "react"
+import Link from 'next/link'
 
 let rowcounter = 1
 
@@ -26,13 +27,27 @@ class Contracts extends Component {
                 <Navbar/>
         
                 <main>
+
+                    <div className='dark-header'>
+
+                        <h1 className='hero'>CONTRACTS</h1>
+                        <h2>Ethereum Smart Contract Stats</h2>
+
+                    </div>
                     <div className="container"> 
 
         
                         <div className='content'>
-                            <div className='graph-box'><h1>Smart Contract Stats</h1></div>
+                           
                             <Contracttx />
                             <Contractsvalue />
+
+                            <div className='graph-box' style={{textAlign: 'center'}}>
+
+<p>Sign up to stay up to date <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passhref>
+    <a className='button'>SIGN UP HERE</a></Link></p>
+<p><Link href="https://twitter.com/defidatadev" ><a target="_blank" >Follow @DefiDataDev</a></Link></p>
+</div>
                             
 
                     

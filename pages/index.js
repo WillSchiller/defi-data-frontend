@@ -53,6 +53,13 @@ export default function Home() {
                       <Trending />
                       <Volatile />
                       <Decreasing />
+
+                      <div className='graph-box' style={{textAlign: 'center'}}>
+
+                  <p>Sign up to stay up to date <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passhref>
+                      <a className='button'>SIGN UP HERE</a></Link></p>
+                  <p><Link href="https://twitter.com/defidatadev" ><a target="_blank" >Follow @DefiDataDev</a></Link></p>
+                  </div>
                       
                   </div>
               </div>
