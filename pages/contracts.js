@@ -44,9 +44,16 @@ class Contracts extends Component {
 
                             <div className='graph-box' style={{textAlign: 'center'}}>
 
-<p>Sign up to stay up to date <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passhref>
-    <a className='button'>SIGN UP HERE</a></Link></p>
-<p><Link href="https://twitter.com/defidatadev" ><a target="_blank" >Follow @DefiDataDev</a></Link></p>
+<p>Mailing List: <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passhref>
+    <a className='button'>SIGN UP HERE</a></Link>
+
+    // Follow:
+
+    <Link href="https://twitter.com/defidatadev" ><a target="_blank" >@DefiDataDev</a></Link></p>
+
+<p>Donate ETH: 0xb94d23CE4Aac668015aF33371dA35cBB4dC461df</p>
+
+
 </div>
                             
 
