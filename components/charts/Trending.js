@@ -42,10 +42,10 @@ class Trending extends Component {
                     <th className="number">#</th>
                     <th>Symbol</th>
                     <th>Tweets</th>
-                    <th>24%</th>
+                    <th>24h%</th>
                     <th>7d%</th>
-                    <th>RSD 24</th>
-                    <th>RSD 7d</th>
+                    <th>Price</th>
+                    <th>Price 24h%</th>
                     <th>Sentiment</th>
 
                     {this.state.apiResponse.map((row) => (
@@ -55,8 +55,8 @@ class Trending extends Component {
                             <td>{row.count}</td>
                             <td>{(row.sma1_dif * 100).toFixed(2)+'%'}</td>
                             <td>{(row.sma7_dif * 100).toFixed(2)+'%'}</td>
-                            <td>{row.rsd_1.toFixed(2)}</td>
-                            <td>{row.rsd_7.toFixed(2)}</td>
+                            <td>{'$' + row.price.toFixed(2)}</td>
+                            <td>{row.percent_change_24h.toFixed(2)+'%'}</td>
                             <td>{row.sentiment.toFixed(2)}</td>
                         </tr>
                     ))}
