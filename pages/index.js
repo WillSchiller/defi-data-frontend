@@ -14,7 +14,7 @@ export default function Home() {
     return (
       <div className='container'>
 
-          <Head>
+<Head>
               <title>Defi Data - Crypto Twitter Data & API</title>
               <meta name="description" content="Crypto Twitter data and analysis API and platform. Get insights for the top 400 cryptocurrency tokens including sentiment & frequency metrics." /> 
               <link rel="icon" href="/favicon.ico" />
@@ -38,9 +38,9 @@ export default function Home() {
                 </div>
                 <div className='info-box pink-border'>
                     <p><b>AI</b></p>
-                    <p>ML insights and subscribable alerts strait to your inbox.</p>
+                    <p>ML insights and subscribable alerts straight to your inbox.</p>
                     <p><Link href="/machine-learning">
-                    <a className='button pink'>Machine Learning</a></Link></p>
+                    <a className='button pink'>MACHINE LEARNING</a></Link></p>
                 </div>
                 </div>
             </div>
