@@ -28,31 +28,15 @@ export default function Home() {
           <main>
 
           <div className='dark-header'>
-            <h1 className='hero'>DEFI ANALYTICS</h1>
+            <h1 className='hero'>Crypto Twitter</h1>
+            <h2>Data Updated hourly</h2>
+
                 
-                <div className='row content'>
-                    <div className='info-box aqua-border'>
-                        <p><b>ANALYTICS</b></p>
-                        <p>Free Crypto Twitter dashboards updated hourly.</p>
-                        <p><Link href="#dashboard"><a className='button aqua'>DASHBAORD</a></Link></p>
-                    </div>
-                <div className='info-box purple-border'>
-                    <p><b>DATA</b></p>
-                    <p>Rest API for Developers and automated trading</p>
-                    <p><Link href="/api-data"><a className='button purple'>API</a></Link></p>
-                </div>
-                <div className='info-box pink-border'>
-                    <p><b>AI</b></p>
-                    <p>ML insights and subscribable alerts straight to your inbox.</p>
-                    <p><Link href="/machine-learning">
-                    <a className='button pink'>MACHINE LEARNING</a></Link></p>
-                </div>
-                </div>
+            
             </div>
-              
+    
             <div className="container"> 
                   <div className='content'>
-                      <div className='graph-box'><h2 id="dashboard">Crypto Twitter Stats</h2></div>
                       
                       <History />
                       <Trending />
