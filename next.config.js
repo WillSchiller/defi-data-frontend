@@ -7,7 +7,7 @@ module.exports = {
     async redirects() {
       return [
         {
-          source: '/[symbol]',
+          source: '/cryptocurrencies/[symbol]',
           destination: '/',
           permanent: true,
         },
