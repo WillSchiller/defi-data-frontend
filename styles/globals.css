@@ -308,37 +308,34 @@ td {
   background-color:#e0beff;
   margin-top: 30px;
   width: 100vw;
-  min-height: 50vh;
-  color: grey;
+
+  color: #0e0333;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.5em;
 
 }
 
 .white-highlight {
-  margin-top: -1em;
   margin-left: 1.9em;
-
 }
 
 .no-margin {
-  margin-top: -1.4em;
-  margin-bottom: 4em;
   margin-left: -9em;
 
 }
 
 a.green {
-  color: grey;
+  color: #0e0333;
   font-weight: 100;
 
   margin-left: 11em;
-  font-size: 0.9em;
-  margin-top: -3.5em;
-  margin-bottom: 2em;
+
+  margin-top: -2.5em;
+
   padding: 0.5em;
-  border:grey;
+  border: #0e0333;
   border-style: solid;
   border-width: 0.01em;
 

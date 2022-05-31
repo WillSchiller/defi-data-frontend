@@ -29,7 +29,7 @@ export default function Home() {
           <main>
 
           <div className='light-header'>
-            
+
             <Image src="/gitcoin.png" alt="defi data logo" width={620} height={200} />
            <p className='no-margin'> <Link href="https://gitcoin.co/grants/5860/defidata-free-crypto-twitter-analytics" ><a className='green' target="_blank">FUND DEVS</a></Link> TO #BUIDL DEFIDATA</p>
         
