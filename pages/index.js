@@ -5,6 +5,7 @@ import Decreasing from '@components/charts/Decreasing'
 import History from '@components/charts/History'
 import React, { Component } from "react"
 import Link from 'next/link'
+import Image from 'next/image';
 
 
 
@@ -27,10 +28,12 @@ export default function Home() {
 
           <main>
 
-          <div className='dark-header'>
-            <h1 className='hero'>Crypto Twitter</h1>
-            <h2>Data Updated hourly</h2>
-
+          <div className='light-header'>
+            
+            <Image src="/gitcoin.png" alt="defi data logo" width={620} height={200} />
+            <h1 className='hero white-highlight'>Funding</h1>
+           <p className='no-margin'> <Link href="https://gitcoin.co/grants/5860/defidata-free-crypto-twitter-analytics" ><a className='green' target="_blank">FUND DEVS</a></Link> TO #BUIDL DEFIDATA</p>
+        
                 
             
             </div>
