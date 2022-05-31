@@ -326,8 +326,13 @@ td {
 
 }
 
+.white {
+  color: #46ebff;
+
+}
+
 a.green {
-  color: #0e0333;
+  color: white;
   font-weight: 100;
 
   margin-left: 11em;
@@ -335,7 +340,7 @@ a.green {
   margin-top: -2.5em;
 
   padding: 0.5em;
-  border: #0e0333;
+  border: white;
   border-style: solid;
   border-width: 0.01em;
 
@@ -344,11 +349,11 @@ a.green {
 }
 a.green:hover{
 
-  color: white;
+  color: black;
 
   font-weight: 300;
-  border-color: #8A2BE2;
-  background-color:#8A2BE2;
+  border-color: black;
+  background-color:#16ebb6;
 }
 
  .hero {
