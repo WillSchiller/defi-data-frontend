@@ -13,16 +13,12 @@
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@mui/material": "^5.2.3",
-    "@polkadot/react-identicon": "^2.1.1",
-    "axios": "^0.21.4",
     "dotenv": "^8.2.0",
     "next": "^12.0.10",
     "next-images": "^1.7.0",
-    "polkadot-web-identicon": "^1.0.5-rc2",
     "react": "^18.1.0",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "17.0.1",
-    "react-identicons": "^1.2.5",
     "recharts": "^2.1.8"
   },
   "devDependencies": {
