@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '@components/Navbar'
+import ReactGoogleSlides from "react-google-slides";
 
 
 function About() {
@@ -32,8 +33,16 @@ function About() {
                   <h2>Data: This is an alpha product</h2>
                     <p>Defi Data provides data for educational & research purposes. Trends, reports, metrics and analysis are not intended as investment advice.</p>
                     <p>Please be aware Data & the software underpinning it is experimental and in alpha release. We do our best to ensure accuracy and availability of data but it should be noted that the current services offered are “as is” without guarantee of up time or accuracy.</p>
+
+                 
+
+
+  
+
                 </div>
+               
               </div>
+     
             </div>
           </main>
 

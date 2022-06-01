@@ -327,20 +327,25 @@ td {
 }
 
 .white {
-  color: #46ebff;
+  color: #8A2BE2;
+  font-weight: 200;
 
+} 
+span.white:hover {
+  color: #16ebb6;
+  font-weight:1000;
 }
 
 a.green {
-  color: white;
-  font-weight: 100;
+  color: #8A2BE2;
+  font-weight: 200;
 
   margin-left: 11em;
 
   margin-top: -2.5em;
 
   padding: 0.5em;
-  border: white;
+  border: #8A2BE2;
   border-style: solid;
   border-width: 0.01em;
 
@@ -354,6 +359,11 @@ a.green:hover{
   font-weight: 300;
   border-color: black;
   background-color:#16ebb6;
+}
+
+.slides {
+  width: auto;
+  padding: 1em;
 }
 
  .hero {
