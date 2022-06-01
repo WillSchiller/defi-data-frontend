@@ -42,7 +42,18 @@ function About() {
                 </div>
                
               </div>
-     
+             <div className='slides graph-box'>
+                <ReactGoogleSlides
+      width={600}
+      height={373}
+      slidesLink="https://docs.google.com/presentation/d/1HnQVu5LGO7Pp4zAyPMqcEMh8C5bbp9O0n6E6xJ4a9HE"
+      slideDuration={5}
+      position={1}
+      showControls
+      loop
+    />
+
+                </div>
             </div>
           </main>
 
