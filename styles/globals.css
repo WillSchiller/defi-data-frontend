@@ -1,11 +1,11 @@
 html,
 body {
-  padding: 0;
+  padding: 0px;
   margin: 0;
   font-family: Roboto Mono;
   margin-top: 30px;
   min-width: 300px; /* 100px x3 = 300 */
-  background-color: #FBFAF9
+  background-color:#b1ffed;
 }
 
 * {
@@ -66,8 +66,9 @@ a:hover {
 h1 {
   font-size: calc(1.8vw * 60%);
   font-weight: 400;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 25px;
+  margin: 5px;;
+  
   text-align: center;
 }
 
@@ -120,18 +121,17 @@ p.title {
 }
 
 .filler {
+  border: #172026;
+  border-style:solid ;
+  border-width: 0.01em;
   background-color: white;
   width: 100vw;
   height: 80px;
   position:fixed;
   top: 0;
   z-index: 10;
-  border-color: #dbdbdb;
-  border-style: solid;
+
 }
-
-
-
 
 
 .buttons-box {
@@ -159,16 +159,8 @@ padding-left: 25px;
 overflow: hidden;
 }
 
-.line {
-  width:100vw;
-  position: fixed;
-  z-index: 10;
-  padding-top: 10px;
-}
 
-hr {
-  color: #dbdbdb;
-}
+
 
 .Footer_footer__1_BW4 {
   position: fixed;
@@ -232,15 +224,11 @@ td {
  }
 
  .box{
-  border-radius: 20px;
-  box-shadow:  rgba(88, 102, 126, 0.08) 0px 4px 24px, rgba(88, 102, 126, 0.12) 0px 1px 2px;;
-  border-width: 1px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  border-radius: 5px;
+
+  margin: 5px ;
   min-height: 906px;
   background-color: white;
-  border-color: #dbdbdb;
-  border-style: solid;
   padding: 0 0 0 0.9vw;
   
  }
@@ -248,18 +236,12 @@ td {
 
 
  .graph-box{
-  width: 1450px;
-  border-color: #dbdbdb;
-  border-style: solid;
-  border-radius: 20px;
+  margin:5px;
+  border-radius: 5px;
   box-shadow:  rgba(88, 102, 126, 0.08) 0px 4px 24px, rgba(88, 102, 126, 0.12) 0px 1px 2px;
   border-width: 1px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   padding: 0 0 0 0.9vw;
   background-color: white;
-  width: 100%;
-  
  }
 
 
@@ -296,12 +278,10 @@ td {
  }
 
  .light-header {
-  background-color:#e0beff;
+background-color: #b1ffed;
   margin-top: 30px;
   width: 100vw;
-  border-bottom:#929292;
-  border-bottom-style: solid;
-  border-bottom-width: 0.1em;
+
 
   color: #0e0333;
   display: flex;
@@ -326,7 +306,7 @@ td {
 
 } 
 span.white:hover {
-  color: #16ebb6;
+  color: #8A2BE2;
   font-weight:1000;
 }
 
@@ -348,11 +328,10 @@ a.green {
 }
 a.green:hover{
 
-  color: black;
-
-  font-weight: 300;
+  color: white;
+  font-weight: 400;
   border-color: black;
-  background-color:#16ebb6;
+  background-color:#8A2BE2;;
 }
 
 .slides {

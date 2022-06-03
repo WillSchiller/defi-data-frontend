@@ -40,7 +40,11 @@ export default function Home() {
             <div className="container"> 
                   <div className='content'>
 
+                    <div className='graph-box'>
                     <h1>Crypto Twitter Stats</h1>
+                    </div>
+
+                    
                       
                       <History />
                       <Trending />
