@@ -6,6 +6,7 @@ import History from '@components/charts/History'
 import React, { Component } from "react"
 import Link from 'next/link'
 import Image from 'next/image';
+import Footer from '@components/Footer'
 
 
 
@@ -50,20 +51,9 @@ export default function Home() {
                       <Trending />
                       <Volatile />
                       <Decreasing />
+                      <Footer />
 
-                      <div style={{textAlign: 'center'}}>
-
-                  <p>Mailing List: <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passhref>
-                      <a className='button'>SIGN UP HERE</a></Link>
-
-                      // Follow:
-
-                      <Link href="https://twitter.com/defidatadev" ><a target="_blank" >@DefiDataDev</a></Link></p>
-
-                  <p>Donate ETH: 0xb94d23CE4Aac668015aF33371dA35cBB4dC461df</p>
-
-            
-                  </div>
+             
                       
                   </div>
               </div>

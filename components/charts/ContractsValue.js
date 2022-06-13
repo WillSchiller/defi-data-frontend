@@ -3,14 +3,14 @@ import Table from 'react-bootstrap/Table';
 let rowcounter = 1
 
 
-class contractstx extends Component {
+class ContractsValue extends Component {
     constructor(props) {
         super(props);
         this.state = { apiResponse: [] };
     }
 
     callAPI() {
-        fetch("https://fathomless-fjord-82402.herokuapp.com/contracts/tx")
+        fetch("https://fathomless-fjord-82402.herokuapp.com/contracts/value")
             .then(res => res.json())
             .then(data => this.setState({ apiResponse: data }))
             .catch(err => err);
@@ -32,8 +32,8 @@ class contractstx extends Component {
             <div className="box">
 
                 <div className="titlebox">
-                    <h3><div className="icon">&#128142;</div> New contracts by Tx Volume</h3>
-                    <p className="title">Contracts deployed over last 7 days with highest Tx count</p>
+                    <h3><div className="icon">&#128176;</div> New contracts by Eth received</h3>
+                    <p className="title">Contracts deployed over last 7 days that generated the most eth from input Tx&#39;s</p>
                 </div>
 
                 <Table responsive>
@@ -70,4 +70,4 @@ class contractstx extends Component {
     }
 }
 
-export default contractstx;
+export default ContractsValue;

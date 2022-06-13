@@ -1,11 +1,14 @@
 html,
 body {
-  padding: 0px;
-  margin: 0;
+  padding:0px 0px 0px 0px;
+  margin: 0px;
   font-family: Roboto Mono;
   margin-top: 30px;
   min-width: 300px; /* 100px x3 = 300 */
-  background-color:#b1ffed;
+  background-image: url("/mountains.png");
+  background-repeat: repeat-y;
+  background-size: auto;
+  /*background-color:#b1ffed; */
 }
 
 * {
@@ -14,7 +17,7 @@ body {
 
 
 main {
-  margin-top: -10px;
+
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -34,19 +37,8 @@ main {
   text-align: left;
   max-width: 1450px; 
 
-  
-  
-  
-}
-
-.joke {
-  background-color: #dccfbc;
 
 }
-.small_joke {
-  font-size: 9px;
-}
-
 
 a {
   
@@ -59,6 +51,9 @@ a {
 a:hover {
   text-decoration: none;
   color: #fe14fd;
+  font-weight: 600;
+  text-shadow: 0.01vh 0.1vh 0.1vh #000;
+
 }
 
 
@@ -95,7 +90,7 @@ h3, h4 {
 
 p {
   max-width: 1450px;
-  padding-left: 25px;
+
   padding-right: 25px;
 }
 
@@ -121,8 +116,8 @@ p.title {
 }
 
 .filler {
-  border: #172026;
-  border-style:solid ;
+  border-bottom: #172026;
+  border-bottom-style:solid ;
   border-width: 0.01em;
   background-color: white;
   width: 115vw;
@@ -180,6 +175,9 @@ overflow: hidden;
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
+  body {
+    padding:0px 0px 0px 25px;
+  }
   table {
     font-size: 2vw;
   }
@@ -278,7 +276,7 @@ td {
  }
 
  .light-header {
-background-color: #b1ffed;
+
   margin-top: 30px;
   width: 100vw;
 
@@ -301,37 +299,41 @@ background-color: #b1ffed;
 }
 
 .white {
-  color: #8A2BE2;
+  color: white;
   font-weight: 200;
 
 } 
 span.white:hover {
-  color: #8A2BE2;
+  color: #0fefba;
+  text-shadow: 1px 1px 1px #000;
+
+ 
   font-weight:1000;
 }
 
 a.green {
-  color: #8A2BE2;
-  font-weight: 200;
+  color: white;
+  font-weight: 300;
 
   margin-left: 11em;
 
   margin-top: -2.5em;
 
   padding: 0.5em;
-  border: #8A2BE2;
+  border: white;
   border-style: solid;
-  border-width: 0.01em;
+  border-width: 0.05em;
 
   box-shadow:  1px;
   box-shadow: #16ebb6 (88, 102, 126, 0.08) 0
 }
 a.green:hover{
-
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 1px 1px 1px #000;
   color: white;
-  font-weight: 400;
-  border-color: black;
-  background-color:#8A2BE2;;
+  font-weight: 600;
+  border-color: #0fefba;
+  background-color:#0fefba;
 }
 
 .slides {
@@ -410,32 +412,50 @@ border-color: #E4D8FD !important;
 
 }
 
-
+.signupbox {
+  color: white;
+  text-align: center;
+}
 
 a.button{
-  display:inline-block;
-  padding:0.46em 1.6em;
-  border:0.001ch solid;
-  margin:0 0.2em 0.2em 0;
-  border-radius:0.12em;
-  Box-sizing: border-box;
-  text-decoration:none;
-  font-weight:300;
-  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-  text-align:center;
-  transition: all 0.15s;
-  border-radius: 20px;
+  color: white;
+  font-weight: 300;
+  margin-right: 7px;
+  
+
+  padding: 0.5em;
+  border: white;
+  border-style: solid;
+  border-width: 0.05em;
+  box-shadow:  1px;
+  box-shadow: #16ebb6 (88, 102, 126, 0.08) 0
   }
   a.button:hover{
-  text-shadow: 0 0 2em black(255,255,255,1);
-  color:black;
-  border-color:#FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 1px #000;
+  color:white;
+  font-weight: 800;
+  border-color:#8A2BE2;
+  background-color: #8A2BE2;
 
   }
   @media all and (max-width:30em){
   a.button{
- 
-  margin:0.4em auto;
+    color: white;
+    font-weight: 300;
+  
+
+    
+    margin-top: -2.5em;
+  
+    padding: 0.5em;
+    border: white;
+    border-style: solid;
+    border-width: 0.05em;
+  
+    box-shadow:  1px;
+    box-shadow: #16ebb6 (88, 102, 126, 0.08) 0
   }
+
 }
   
