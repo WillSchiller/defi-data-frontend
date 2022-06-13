@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '@components/Navbar'
+import Link from 'next/link'
 
 
 
@@ -23,7 +24,9 @@ function About() {
             <div className="container"> 
               <div className='graph-box'>
                 <div className='content'>
-                  <h1>Privacy: We don’t track you.</h1>
+                <h2>DefiData V2 is coming.</h2>
+                    <p>We have been busy working out the next steps to make DefiData V2. Check out the <Link href="/defidata2.0.pdf" ><a target="_blank" >deck</a></Link>. We will be launching a Discord soon and starting to build out the new features with the help of the community.</p>
+                  <h2>Privacy: We don’t track you.</h2>
                     <p>We don’t use trackers, cookies or pixels on our site. We have a minimal analytics setup that consists of Google Search Console & Netlify Analytics.</p>
                     <p>Google Search Console Reports are based on information Google collects about you when you use Google. This data would be collected regardless of Defi Data. The data we have access to is aggregregated and devoid of personal identifiable information. We use this data to better match our services to what people are searching for.</p>
                     <p>We use Netlify Analytics to make minimal use of log files to see request frequencies with basic geographical segmentation (I.E. country level). This helps us to monitor internet traffic and bots hitting our servers.</p>
@@ -33,6 +36,8 @@ function About() {
                   <h2>Data: This is an alpha product</h2>
                     <p>Defi Data provides data for educational & research purposes. Trends, reports, metrics and analysis are not intended as investment advice.</p>
                     <p>Please be aware Data & the software underpinning it is experimental and in alpha release. We do our best to ensure accuracy and availability of data but it should be noted that the current services offered are “as is” without guarantee of up time or accuracy.</p>
+                  
+                  
 
                  
 

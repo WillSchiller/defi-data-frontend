@@ -51,7 +51,7 @@ export default function Home() {
                       <Volatile />
                       <Decreasing />
 
-                      <div className='graph-box' style={{textAlign: 'center'}}>
+                      <div style={{textAlign: 'center'}}>
 
                   <p>Mailing List: <Link href="https://d0zrotlzu5n.typeform.com/to/KPYNnxft" passhref>
                       <a className='button'>SIGN UP HERE</a></Link>

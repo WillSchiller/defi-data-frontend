@@ -64,7 +64,7 @@ a:hover {
 
 
 h1 {
-  font-size: calc(1.8vw * 60%);
+  font-size: calc(1.7vw * 60%);
   font-weight: 400;
   padding: 25px;
   margin: 5px;;
@@ -73,7 +73,7 @@ h1 {
 }
 
 h2 {
-  font-size: calc(1.4vw + 60%);
+  font-size: calc(1.3vw + 60%);
   font-weight: 400;
   padding-left: 25px;
   padding-right: 25px;
@@ -113,7 +113,7 @@ p.title {
   display: block;
   width:100vw;
   max-width: 1450px;
-  padding: 13px 0 0px 0;
+  padding: 10px 0 0px 0;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -126,7 +126,7 @@ p.title {
   border-width: 0.01em;
   background-color: white;
   width: 115vw;
-  height: 80px;
+  height: 70px;
   position:fixed;
   top: 0;
   z-index: 10;
@@ -135,7 +135,7 @@ p.title {
 
 
 .buttons-box {
-font-size:30px;
+font-size:25px;
 display: flex;
 justify-content: flex-end;
 color: #9a6ffd;
@@ -174,14 +174,14 @@ overflow: hidden;
 
 @media screen and (min-width: 601px) {
   table {
-    font-size: small;
+    font-size: 0.7vw;
   }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   table {
-    font-size: xx-small;
+    font-size: 2vw;
   }
 }
 
