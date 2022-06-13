@@ -1,13 +1,17 @@
 html,
 body {
-  padding:0px 0px 0px 0px;
+  padding-left:0px 0px 0px 25px;
   margin: 0px;
   font-family: Roboto Mono;
   margin-top: 30px;
   min-width: 300px; /* 100px x3 = 300 */
   background-image: url("/mountains.png");
-  background-repeat: repeat-y;
-  background-size: auto;
+
+  background-size: cover;
+
+  
+
+  
   /*background-color:#b1ffed; */
 }
 
