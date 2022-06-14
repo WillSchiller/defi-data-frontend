@@ -45,9 +45,9 @@ main {
 }
 
 a {
-  
   color: #8A2BE2;
   text-decoration: none;
+  text-shadow: 0.01vh 0.1vh 0.1vh #8A2BE2;
 
 }
 
@@ -109,6 +109,7 @@ p.title {
 
 
 .navbar  {
+
   display: block;
   width:100vw;
   max-width: 1450px;
@@ -120,7 +121,9 @@ p.title {
 }
 
 .filler {
-  border-bottom: #172026;
+ 
+  box-shadow: 1px 1px 1px #8A2BE2;
+  border-bottom: #8A2BE2;
   border-bottom-style:solid ;
   border-width: 0.01em;
   background-color: white;
@@ -145,7 +148,6 @@ padding: 7px 25px 0 0;
 
 div.buttons-box a {
   margin-left: 20px
-
 }
 
 
@@ -232,6 +234,7 @@ td {
   min-height: 906px;
   background-color: white;
   padding: 0 0 0 0.9vw;
+  box-shadow:1px 1px 1px #8A2BE2;
   
  }
 
@@ -244,12 +247,15 @@ td {
   border-width: 1px;
   padding: 0 0 0 0.9vw;
   background-color: white;
+
+  box-shadow:1px 1px 1px #8A2BE2;
  }
 
 
 
  .titlebox {
    padding:12px;
+   
  }
 
  .icon {
@@ -297,19 +303,20 @@ td {
   margin-left: 1.9em;
 }
 
-.no-margin {
-  margin-left: -9em;
 
-}
 
 .white {
   color: white;
-  font-weight: 200;
+  font-weight: 1000;
+  box-shadow:  1px;
+  text-shadow: 1px 1px 1px #000;
 
 } 
 span.white:hover {
   color: #0fefba;
-  text-shadow: 1px 1px 1px #000;
+
+  text-shadow: 1px 2px 3px #000;
+
 
  
   font-weight:1000;
@@ -317,7 +324,7 @@ span.white:hover {
 
 a.green {
   color: white;
-  font-weight: 300;
+  font-weight: 500;
 
   margin-left: 11em;
 
@@ -329,7 +336,7 @@ a.green {
   border-width: 0.05em;
 
   box-shadow:  1px;
-  box-shadow: #16ebb6 (88, 102, 126, 0.08) 0
+  box-shadow: #16ebb6 (88, 102, 126, 0.08) 
 }
 a.green:hover{
   text-shadow: 1px 1px 1px #000;
@@ -423,8 +430,8 @@ border-color: #E4D8FD !important;
 
 a.button{
   color: white;
-  font-weight: 300;
-  margin-right: 7px;
+  font-weight: 500;
+
   
 
   padding: 0.5em;
@@ -432,11 +439,13 @@ a.button{
   border-style: solid;
   border-width: 0.05em;
   box-shadow:  1px;
-  box-shadow: #16ebb6 (88, 102, 126, 0.08) 0
+  box-shadow: #16ebb6 (88, 102, 126, 0.08) ;
+  text-shadow: 1px 1px 1px #8A2BE2;
   }
+
   a.button:hover{
-    text-shadow: 1px 1px 1px #000;
-    box-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 1px 1px 1px #000;
   color:white;
   font-weight: 800;
   border-color:#8A2BE2;
