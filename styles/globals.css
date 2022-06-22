@@ -3,11 +3,8 @@ body {
   padding-left:0px 0px 0px 25px;
   margin: 0px;
   font-family: Roboto Mono;
-  margin-top: 30px;
-  min-width: 300px; /* 100px x3 = 300 */
-  background-image: url("/mountains.png");
-
-  background-size: cover;
+  margin-top: 20px;
+  background-color: #f8f9fa;
 
   
 
@@ -47,7 +44,7 @@ main {
 a {
   color: #8A2BE2;
   text-decoration: none;
-  text-shadow: 0.01vh 0.1vh 0.1vh #8A2BE2;
+
 
 }
 
@@ -56,7 +53,7 @@ a:hover {
   text-decoration: none;
   color: #fe14fd;
   font-weight: 600;
-  text-shadow: 0.01vh 0.1vh 0.1vh #000;
+
 
 }
 
@@ -122,16 +119,15 @@ p.title {
 
 .filler {
  
-  box-shadow: 1px 1px 1px #8A2BE2;
-  border-bottom: #8A2BE2;
-  border-bottom-style:solid ;
-  border-width: 0.01em;
+
+
   background-color: white;
   width: 115vw;
   height: 70px;
   position:fixed;
   top: 0;
   z-index: 10;
+  box-shadow:0.11vh 0.11vh 0.11vh  #eff2f5;
 
 }
 
@@ -234,7 +230,7 @@ td {
   min-height: 906px;
   background-color: white;
   padding: 0 0 0 0.9vw;
-  box-shadow:1px 1px 1px #8A2BE2;
+  box-shadow:0.11vh 0.11vh 0.11vh  #eff2f5;
   
  }
 
@@ -248,7 +244,7 @@ td {
   padding: 0 0 0 0.9vw;
   background-color: white;
 
-  box-shadow:1px 1px 1px #8A2BE2;
+  box-shadow:0.11vh 0.11vh 0.11vh  #eff2f5;
  }
 
 
@@ -306,18 +302,8 @@ td {
 
 
 .white {
-  color: white;
+  color: black;
   font-weight: 1000;
-  box-shadow:  1px;
-  text-shadow: 1px 1px 1px #000;
-
-} 
-span.white:hover {
-  color: #0fefba;
-
-  text-shadow: 1px 2px 3px #000;
-
-
  
   font-weight:1000;
 }
@@ -424,12 +410,12 @@ border-color: #E4D8FD !important;
 }
 
 .signupbox {
-  color: white;
+  color: black;
   text-align: center;
 }
 
 a.button{
-  color: white;
+
   font-weight: 500;
 
   
