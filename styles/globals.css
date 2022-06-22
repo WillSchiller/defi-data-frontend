@@ -4,7 +4,7 @@ body {
   margin: 0px;
   font-family: Roboto Mono;
   margin-top: 20px;
-  background-color: #f8f9fa;
+  background-color: #fafafa;
 
   
 
@@ -42,7 +42,7 @@ main {
 }
 
 a {
-  color: #8A2BE2;
+  color: #9d70fe;
   text-decoration: none;
 
 
@@ -52,7 +52,7 @@ a {
 a:hover {
   text-decoration: none;
   color: #fe14fd;
-  font-weight: 600;
+
 
 
 }
@@ -120,15 +120,15 @@ p.title {
 .filler {
  
 
-
+  border: #978f8f;
+  border-width: 1px ;
+  border-style: solid;
   background-color: white;
   width: 115vw;
   height: 70px;
   position:fixed;
   top: 0;
   z-index: 10;
-  box-shadow:0.11vh 0.11vh 0.11vh  #eff2f5;
-
 }
 
 
@@ -230,7 +230,7 @@ td {
   min-height: 906px;
   background-color: white;
   padding: 0 0 0 0.9vw;
-  box-shadow:0.11vh 0.11vh 0.11vh  #eff2f5;
+  box-shadow:0.11vh 0.11vh 0.11vh  #ded5f2;
   
  }
 
@@ -239,12 +239,12 @@ td {
  .graph-box{
   margin:5px;
   border-radius: 5px;
-  box-shadow:  rgba(88, 102, 126, 0.08) 0px 4px 24px, rgba(88, 102, 126, 0.12) 0px 1px 2px;
+
   border-width: 1px;
   padding: 0 0 0 0.9vw;
   background-color: white;
 
-  box-shadow:0.11vh 0.11vh 0.11vh  #eff2f5;
+  box-shadow:0.11vh 0.11vh 0.11vh  #ded5f2;
  }
 
 

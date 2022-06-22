@@ -41,7 +41,7 @@ class History extends Component {
             <ComposedChart  data={this.state.apiResponse}>
                 <YAxis/>
                 <XAxis dataKey="date" />
-                <Area strokeWidth={3} type="monotone" dataKey="tweets" fill="#fff" stroke="#8A2BE2"  activeDot={{ fill: "#8A2BE2", stroke: '#8A2BE2', strokeWidth: 2, r: 5 }} />
+                <Area strokeWidth={1} type="monotone" dataKey="tweets" fill="#9d70fe" stroke="#9d70fe"  activeDot={{ fill: "#9d70fe", stroke: '#9d70fe', strokeWidth: 2, r: 5 }} />
                 <Tooltip />
 <Legend />
             </ComposedChart>
