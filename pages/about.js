@@ -21,7 +21,7 @@ function About() {
           <main>
             <div className="light-header"> 
          
-                  <h1 className='hero'>DefiData V2 is coming.</h1>
+                  <h1>DefiData V2 is coming.</h1>
                     <p>We have been busy working out the next steps to make DefiData V2. Check out the <Link href="/defidata2.0.pdf" ><a target="_blank" >deck</a></Link>. We will be launching a Discord soon and starting to build out the new features with the help of the community.</p>
                   <h2>Privacy: We don’t track you.</h2>
                     <p>We don’t use trackers, cookies or pixels on our site. We have a minimal analytics setup that consists of Google Search Console & Netlify Analytics.</p>
